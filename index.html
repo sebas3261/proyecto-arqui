@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficos con Chart.js</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Potabilidad del agua con el paso del tiempo</h1>
+        <nav>
+            <button id="btn1">Concentración en el Tiempo</button>
+            <button id="btn2">Distribución de Potabilidad</button>
+            <button id="btn3">Colores y Concentración</button>
+        </nav>
+    </header>
+
+    <main>
+        <div class="chart-container">
+            <canvas id="chart1" class="chart" width="400" height="200"></canvas>
+            <canvas id="chart2" class="chart" width="400" height="200"></canvas>
+            <canvas id="chart3" class="chart" width="400" height="200"></canvas>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
